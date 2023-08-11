@@ -25,5 +25,6 @@ public class Main {
         
         double notOrtalamasi = (matematik + fizik + kimya + turkce + tarih + muzik)/6.0;
         System.out.println("Not Ortalaması->" + notOrtalamasi + (notOrtalamasi<60 ?" Kaldı" : " Geçti"));
+
     }
 }
