@@ -10,7 +10,7 @@ public class Taksimetre {
         System.out.println("Gidilen Mesafeyi Giriniz->");
         double gidilenMesafe = scanner.nextDouble();
         double hesaplananUcret = taksimetreAcilisUcreti + gidilenMesafe * kilometreBasiUcret;
-        double odenecekUcret = hesaplananUcret <20?20:hesaplananUcret;
+        double odenecekUcret = hesaplananUcret <minimumOdenecekTutar?minimumOdenecekTutar:hesaplananUcret;
         System.out.println("Ödenecek Ücret->" + odenecekUcret);
     }
 }
