@@ -14,9 +14,9 @@ Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı b
 
 Formül : (𝜋 * (r*r) * 𝛼) / 360
 
-# Taksimetre
+# Taksimetre Programı
 Taksimetre.java
-Taksimetre Programı
+
 Java ile gidilen mesafeye (KM) göre taksimetre tutarını ekrana yazdıran programı yazın.
 
 Taksimetre KM başına 2.20 TL tutmaktadır.
