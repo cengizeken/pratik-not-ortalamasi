@@ -13,7 +13,7 @@ public class DaireHesaplamalari {
         //daire dilimi alanı : (𝜋 * (r*r) * 𝛼) / 360
         System.out.println("açı->");
         double aci= scanner.nextDouble();
-        double daireDilimiAlani=(Math.PI*(yaricap* yaricap)*aci)/360;
-        System.out.println("daire dilimi alanı->"+daireDilimiAlani);
+        double daireDilimiAlani=(Math.PI*(yaricap * yaricap)*aci)/360;
+        System.out.println("daire dilimi alanı->" + daireDilimiAlani);
     }
 }
